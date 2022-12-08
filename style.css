@@ -7,6 +7,9 @@ body
 {
 background-image: url("dj.jpg");
 background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
 }
 .title
 {
@@ -15,9 +18,14 @@ font-family: showcard gothic;
 text-decoration: yellow underline wavy;
 text-align: center;
 color:aqua;
-text-shadow: 10px 10px rgb(255, 67, 67);
+text-shadow:4px 4px 3px rgb(255, 0, 0),8px 8px 3px rgb(47, 0, 255),12px 12px 3px rgb(255, 238, 0);
 }
 h1
 {
-    text-shadow: 3px 3px rgb(255, 67, 67);
+   text-shadow: 3px 3px rgb(255, 67, 67);
+}
+img
+{
+    width:20%;
+    height:80px;
 }
